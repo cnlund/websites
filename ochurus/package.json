@@ -1,5 +1,5 @@
 {
-  "name": "ochurus-websites",
+  "name": "ochurus",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ochurus-websites": "node dist/ochurus-websites/server/server.mjs"
+    "serve:ssr:ochurus": "node dist/ochurus/server/server.mjs"
   },
   "private": true,
   "dependencies": {

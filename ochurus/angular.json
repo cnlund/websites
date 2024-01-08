@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ochurus-websites": {
+    "ochurus": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ochurus-websites",
+            "outputPath": "dist/ochurus",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ochurus-websites:build:production"
+              "buildTarget": "ochurus:build:production"
             },
             "development": {
-              "buildTarget": "ochurus-websites:build:development"
+              "buildTarget": "ochurus:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ochurus-websites:build"
+            "buildTarget": "ochurus:build"
           }
         },
         "test": {
