@@ -14,6 +14,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_OCHURUS_WEBSITES }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_OCHURUS_WEBSITES_1D1A8 }}'
           channelId: live
-          projectId: ochurus-websites
+          projectId: ochurus-websites-1d1a8
