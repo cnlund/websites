@@ -1,0 +1,32 @@
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(188deg, rgb(94, 60, 114) 0%, rgba(30, 30, 36, 1) 100%, rgb(255, 0, 0) 100%);
+}
+
+.header {
+    text-align: center;
+    font-size: 250%;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(98, 68, 112);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    max-height: 25vh;
+}
+
+.creditos {
+    padding-left: 5%;
+}
+
+.cnlund-r {
+    padding-left: 5%;
+}
+
+.github {
+    display: flex;
+    height: 10vh;
+}
