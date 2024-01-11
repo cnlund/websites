@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: rgb(98, 68, 112);
     position: absolute;
     bottom: 0;
