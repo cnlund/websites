@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-    max-width: fit-content;
+    width: 100vw;
     background-color: rgb(98, 68, 112);
     position: absolute;
     bottom: 0;
@@ -19,14 +19,5 @@ footer {
 }
 
 .creditos {
-    padding-left: 5%;
-}
-
-.cnlund-r {
-    padding-left: 5%;
-}
-
-.github {
-    display: flex;
-    height: 10vh;
+    padding-left: 3vw;
 }
