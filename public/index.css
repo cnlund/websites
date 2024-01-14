@@ -30,7 +30,44 @@ header {
 }
 
 .cnlund{
-    background-color: rgba(253, 0, 0, 0.315);
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 230, 230);
+    width: 15vw;
+    height: 25vh;
+}
+
+.cnlund-info{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cnlund-img {
+    height: 50%;
+}
+
+.cnlund-img img {
+    position: relative;
+    height: 150%;
+}
+
+.cnlund-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cnlund-links a{
+    padding-top: 55%;
 }
 
 footer {
