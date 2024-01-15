@@ -12,7 +12,7 @@ header {
 
 .menu ul {
     display: flex;
-    background-color: rgb(31, 109, 123);
+    background-color: rgb(129, 197, 209);
     justify-content: space-between;
     list-style: none;
     padding: 0;
@@ -33,34 +33,34 @@ header {
     margin-right: 1vw;
 }
 
-.contenedor{
+.contenedor {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.contenedor div{
+.contenedor div {
     border: 3px solid black;
     width: 100%;
 }
 
-.boton-creaciones{
+.boton-creaciones {
     text-decoration: none;
     color: black;
     font-size: 150%;
     background-color: blanchedalmond;
 }
 
-.t-info{
+.t-info {
     text-align: center;
 }
 
-.infocuadros{
+.infocuadros {
     display: flex;
     justify-content: space-between;
 }
 
-.cnlund{
+.cnlund {
     border-radius: 5px;
     font-family: sans-serif;
     display: flex;
@@ -71,7 +71,7 @@ header {
     height: 25vh;
 }
 
-.cnlund-info{
+.cnlund-info {
     position: relative;
     margin: 0;
     width: 100%;
@@ -92,12 +92,90 @@ header {
     height: 150%;
 }
 
-.cnlund-links{
+.cnlund-links {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.cnlund-links a{
+
+.cnlund-links a {
+    padding-top: 55%;
+}
+
+.olecram {
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 9, 9, 0.663);
+    width: 15vw;
+    height: 25vh;
+}
+
+.olecram-info {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+.olecram-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.olecram-links a {
+    padding-top: 55%;
+}
+
+.olecram {
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 9, 9, 0.663);
+    width: 15vw;
+    height: 25vh;
+}
+
+.pablo {
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 9, 9, 0.663);
+    width: 15vw;
+    height: 25vh;
+}
+
+.pablo-info {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pablo-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pablo-links a {
     padding-top: 55%;
 }
 
