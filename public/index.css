@@ -11,21 +11,45 @@ header {
     font-size: 250%;
 }
 
+.menu ul {
+    display: flex;
+    background-color: rgb(31, 109, 123);
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    flex: auto;
+    border: 1px solid black;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 .cuerpo {
     margin-left: 1vw;
     margin-right: 1vw;
 }
 
-.t-proyectos {
-    text-align: center;
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.blog {
-    text-align: center;
+.contenedor div{
+    border: 3px solid black;
+    width: 100%;
 }
 
-.paginas-web {
-    font-size: 200%;
+.boton-creaciones{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    background-color: blanchedalmond;
 }
 
 .t-info{
