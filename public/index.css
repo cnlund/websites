@@ -1,11 +1,11 @@
 body {
     background: rgb(255, 255, 255);
-    background: linear-gradient(188deg, rgb(94, 60, 114) 0%, rgba(30, 30, 36, 1) 100%, rgb(255, 0, 0) 100%);
+    background: linear-gradient(188deg, rgb(78, 159, 189) 0%, rgba(30, 30, 36, 1) 100%, rgb(255, 0, 0) 100%);
     margin: 0;
 }
 
 header {
-    background-color: rgb(114, 39, 184);
+    background-color: rgb(39, 162, 184);
     width: 100%;
     text-align: center;
     font-size: 250%;
@@ -18,6 +18,14 @@ header {
 
 .t-proyectos {
     text-align: center;
+}
+
+.blog {
+    text-align: center;
+}
+
+.paginas-web {
+    font-size: 200%;
 }
 
 .t-info{
@@ -72,7 +80,7 @@ header {
 
 footer {
     width: 100%;
-    background-color: rgb(98, 68, 112);
+    background-color: rgb(52, 116, 134);
     position: absolute;
     bottom: 0;
     left: 0;
