@@ -1,6 +1,7 @@
 body {
     background: rgb(255, 255, 255);
     margin: 0;
+    height: 100%;
 }
 
 header {
@@ -8,6 +9,7 @@ header {
     width: 100%;
     text-align: center;
     font-size: 250%;
+    margin-bottom: -4vh;
 }
 
 .menu ul {
@@ -26,4 +28,52 @@ header {
 .menu ul li a {
     text-decoration: none;
     color: black;
+}
+
+.cuerpo {
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: fit-content;
+    height: 79%;
+}
+
+.entradas {
+    width: 80%;
+    overflow-y: scroll;
+}
+
+.post {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border: 2px solid black;
+}
+
+.post a {
+    margin: 1%;
+    text-decoration: none;
+    color: black;
+    background-color: chocolate;
+    font-size: 150%;
+}
+
+.post h2 {
+    margin-left: 1%;
+}
+
+.post p {
+    margin-left: 1%;
+}
+
+.def {
+    font-size: 140%;
+}
+
+.barra-lateral {
+    width: 20%;
+    background-color: rgb(39, 162, 184);
+    height: 100%;
 }
