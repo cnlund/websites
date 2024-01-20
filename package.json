@@ -7,8 +7,7 @@
   "main": "backend.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node backend.js"
+    "start": "node backend.js"
   },
   "author": "Cnlund",
   "license": "ISC",
