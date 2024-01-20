@@ -20,4 +20,6 @@ app.get("/admin/cnlund/secreto/main/img/fotomia", (req, res) => {
     });
 })
 
-app.listen(3000)
+app.listen(3000, () => {
+    console.log("ejecutando el backend")
+})
