@@ -40,7 +40,7 @@ header {
 }
 
 .entradas {
-    width: 100%;
+    width: 80%;
     overflow-y: scroll;
 }
 
@@ -50,14 +50,6 @@ header {
     margin-left: 1vw;
     margin-right: 1vw;
     border: 2px solid black;
-}
-
-.post a {
-    margin: 1%;
-    text-decoration: none;
-    color: black;
-    background-color: chocolate;
-    font-size: 150%;
 }
 
 .post h2 {
@@ -70,4 +62,10 @@ header {
 
 .def {
     font-size: 140%;
+}
+
+.barra-lateral {
+    width: 20%;
+    background-color: rgb(39, 162, 184);
+    height: 104%;
 }
