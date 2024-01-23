@@ -31,35 +31,33 @@ header {
 }
 
 .cuerpo {
-    margin-top: 0%;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    min-height: fit-content;
+    flex-wrap: wrap;
+    margin-left: 2%;
     height: 73%;
-}
-
-.entradas {
-    width: 100%;
     overflow-y: scroll;
 }
 
-.post {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    border: 2px solid black;
+.proyecto {
+    background-color: rgba(235, 128, 14, 0.846);
+    width: 25%;
+    height: fit-content;
 }
 
-.post h2 {
-    margin-left: 1%;
+.proyecto img {
+    width: 100%;
 }
 
-.post p {
-    margin-left: 1%;
+.proyecto h3 {
+    text-align: center;
 }
 
-.def {
-    font-size: 140%;
+.proyecto p {
+    margin-left: 2%;
+}
+
+.proyecto a {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: black;
 }
